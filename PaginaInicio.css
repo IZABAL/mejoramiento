@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+*
+{
+	margin:0px;
+	padding:0px;
+	text-align:center;
+}
+
+body
+{
+	width:100%
+}
+
+.flexbox
+{
+	background-color:Gray ;
+	margin:5px;
+	
+	display: box;
+	box-orient: horizontal;
+	
+	display:-webkit-box;
+	-webkit-box-orient:horizontal;
+	
+	display:-moz-box;
+	-moz-box-orient:horizontal;
+}
+
+.flexbox> div
+{
+	box-flex:1;
+	-moz-box-flex:1;
+	-webkit-box-flex:1;
+}
+
+#inicio
+{
+	padding:20px;
+	margin:10px;
+	background-color: aqua;
+	border-radius: 25px 25px 25px 25px;
+	text-align: center;
+}
+#galeria1
+{
+	padding:20px;
+	margin:10px;
+	background-color:yellow;
+	border-radius: 25px 25px 25px 25px;
+	text-align: center;
+}
+#galeria2
+{
+  padding:20px;
+  margin:10px;
+  background-color:lawngreen;
+	border-radius: 25px 25px 25px 25px;
+	text-align: center;
+}
+#Galeria3
+{
+  padding:20px;
+  margin:10px;
+  background-color:hotpink;
+	border-radius: 25px 25px 25px 25px;
+	text-align: center;
+}
+#reserva
+{
+  padding:20px;
+  margin:10px;
+  background-color:plum;
+	border-radius: 25px 25px 25px 25px;
+	text-align: center;
+}
+

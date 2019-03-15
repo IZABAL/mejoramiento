@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+
+{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+.div 
+{
+	padding: 400px;
+	margin: 100px;
+}
+
+#l
+{
+	
+    margin: 30px;
+	text-align: center;
+	font-size: 25px;
+	font-family: Constantia, Lucida Bright, DejaVu Serif, Georgia, serif;
+	height: 200px;
+}
+.flexbox
+{
+	background-color:transparent;
+	margin:5px;
+	
+	display: box;
+	box-orient: horizontal;
+	
+	display:-webkit-box;
+	-webkit-box-orient:horizontal;
+	
+	display:-moz-box;
+	-moz-box-orient:horizontal;
+	
+}
+
+.flexbox> div
+{
+	box-flex:1;
+	-moz-box-flex:1;
+	-webkit-box-flex:1;
+}
+
+#inicio
+{
+	padding:20px;
+	margin:10px;
+	background-color:#693;
+	border-radius: 25px 25px 25px 25px;
+	text-align: center;
+}
+#galeria1
+{
+	padding:20px;
+	margin:10px;
+	background-color:#F99;
+	border-radius: 25px 25px 25px 25px;
+	text-align: center;
+}
+#galeria2
+{
+  padding:20px;
+  margin:10px;
+  background-color:#FF0;
+	border-radius: 25px 25px 25px 25px;
+	text-align: center;
+}
+#Galeria3
+{
+  padding:20px;
+  margin:10px;
+  background-color:#F99;
+	border-radius: 25px 25px 25px 25px;
+	text-align: center;
+}
+#reserva
+{
+  padding:20px;
+  margin:10px;
+  background-color:#C96;
+	border-radius: 25px 25px 25px 25px;
+	text-align: center;
+}
